@@ -33,6 +33,11 @@ e=q;
 print(e)
 print(id(q))
 print(id(e))
+l=[1,2,3,[4,5,6]]
+import copy
+l1=copy.deepcopy(l)
+l1[3][0]=8 
+print(l)
 e=q.copy()
 print(id(q))
 print(id(e))
