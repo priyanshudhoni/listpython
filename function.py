@@ -49,3 +49,11 @@ l=list()
 l=[1,20]
 
 fun(*l)
+def fun(a,b):
+    
+    """Adding"""
+    print(a+b)
+    print(fun.__doc__)
+fun(10,20)
+
+
